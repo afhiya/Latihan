@@ -1,0 +1,26 @@
+{
+   "incomes": [
+      {
+         "nama": "Gaji bulanan",
+         "total": 5000000,
+         "category": "income"
+      },
+      {
+         "nama": "Bonus",
+         "total": 1000000,
+         "category": "income"
+      }
+   ],
+   "expenses": [
+      {
+         "nama": "Bayar listrik",
+         "total": 300000,
+         "category": "expense"
+      },
+      {
+         "nama": "Kontrakan Rumah",
+         "total": 1500000,
+         "category": "expense"
+      }
+   ]
+}

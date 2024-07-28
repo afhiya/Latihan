@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kuitansi</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="header">
+                <h2>Aplikasi Kuitansi</h2>
+            </div>
+            <div class="form-item">
+                <div class="form">
+                    <label for="">Nama</label>
+                    <input type="text" placeholder="Masukan nama anda." id="nama">
+                </div>
+                <div class="form">
+                    <label for="">Barang</label>
+                    <input type="text" placeholder="Masukan Barang." id="barang">
+                </div>
+                <div class="form">
+                    <label for="">Harga</label>
+                    <input type="text" placeholder="Masukan Harga." id="harga">
+                </div>
+                <button type="button" id="button" onclick="submit()">Submit</button>
+            </div>
+            <div class="carts">
+                <h3 id="cards"></h3>
+                <div class="table">
+                    <table border="1" cellspacing="0" >
+                        <thead>
+                            <tr> 
+                                <th>Id</th>
+                                <th>Barang</th>
+                                <th>Harga</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                        </tbody>
+                    </table>
+                    <button id="print" type="button" onclick="cetak()">Cetak</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

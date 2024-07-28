@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nama": "Zutto",
+        "skill": "Progammer",
+        "status": true
+    },
+    {
+        "id": 2,
+        "nama": " Vrzz",
+        "skill": "Data analysics",
+        "status": true
+    },
+    {
+        "id": 3,
+        "nama": "Sanz",
+        "skill": "Main ep ep",
+        "status": false
+    },
+    {
+        "id": 4,
+        "nama": "Fika",
+        "skill": "Akutansi",
+        "status": true
+    },
+    {
+        "id": 5,
+        "nama": "Lika",
+        "skill": "cbk",
+        "status": true
+    }
+]
